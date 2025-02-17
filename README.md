@@ -1,10 +1,10 @@
-Vehicle Counting System
+# Vehicle Counting System
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project is a Smart Vehicle Counting System that uses YOLOv8 for object detection, combined with Firebase for data management and Arduino (ESP32-CAM) for real-time camera input. The application is built using Python and developed in PyCharm.
 
-🔧 Technologies Used
+## 🔧 Technologies Used
 
 YOLOv8 – Object detection model for vehicle recognition.
 
@@ -20,7 +20,7 @@ OpenCV (cv2) – Image processing and real-time video frame handling.
 
 NumPy – Efficient numerical computations.
 
-🏗 Project Structure
+## 🏗 Project Structure
 
 ├── app/
 │   ├── main.py           # Main application file
@@ -41,11 +41,11 @@ NumPy – Efficient numerical computations.
 ├── README.md             # Project documentation
 
 
-🚀 Features
+## 🚀 Features
 
 ✔️ Real-time vehicle detection using YOLOv8✔️ Live streaming from ESP32-CAM✔️ Data synchronization with Firebase✔️ User-friendly GUI with Tkinter✔️ Offline & Online processing modes
 
-📡 ESP32-CAM & Firebase Integration
+## 📡 ESP32-CAM & Firebase Integration
 
 The ESP32-CAM captures images and sends them to Firebase.
 
@@ -53,11 +53,21 @@ The Python application retrieves images from Firebase and performs YOLOv8-based 
 
 Detected vehicle counts are updated back in Firebase for real-time monitoring.
 
-📝 Future Improvements
+## 📝 Future Improvements
 
 🔹 Improve accuracy with custom-trained YOLOv8 models.🔹 Add vehicle classification (e.g., car, bus, truck).🔹 Deploy the system on an embedded device (e.g., Raspberry Pi).🔹 Integrate real-time traffic analytics.
+## 🎨 UI Screenshots
+Main page:
+![image](https://github.com/user-attachments/assets/2b635cc9-6de0-4ee1-b957-698645f338ac)
+Select to count and classify vehicles from local images:
+![image](https://github.com/user-attachments/assets/10f50067-c235-4507-8e4e-3c759ba1c79d)
+Counting cars from Video:
+![image](https://github.com/user-attachments/assets/cc957c8b-b0d3-4678-8b22-c9da5510215e)
 
-📞 Contact
+
+
+
+## 📞 Contact
 
 For any inquiries, feel free to reach out:
 
